@@ -33,3 +33,4 @@ B) Large-sample hypothesis test of proportions
 
 Database: Excel
 Tools: Pivot Tables / LOOKUP Functions / Linear Regression / Charting
+

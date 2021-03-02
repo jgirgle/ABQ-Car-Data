@@ -8,11 +8,11 @@ Research Questions:
 Data Set Overview:
 
 Albuquerque Vehicle Emissions Database
-  ●	Environmental Health Department / Vehicle Pollution Management 
-  ●	A record of every emissions test in the city
-  ●	Abundance of data (~257,000 records per year):
+  Environmental Health Department / Vehicle Pollution Management 
+  A record of every emissions test in the city
+  Abundance of data (~257,000 records per year):
     ○	2013: 257,673;  2014: 258,985;  2015: 257,790;  2016: 259,865;  2017: 251,397 
-  ●	We used a reduced dataset:
+  We used a reduced dataset:
     ○	based on 2014-2017 data
     ○	50 or more records (make/model/year)
     ○	represents 822,763 individual reports
@@ -21,14 +21,14 @@ Albuquerque Vehicle Emissions Database
 Methodology
 
 A) Piecewise Linear Regression (weighted1)
-  ●	independent variable: vehicle age (years)
-  ●	dependent variable: failure rate
-  ●	weighted based on number of vehicles in each category
+  independent variable: vehicle age (years)
+  dependent variable: failure rate
+  weighted based on number of vehicles in each category
 B) Large-sample hypothesis test of proportions
-  ●	“Does a vehicle of specific make/model/age perform better or worse than typical vehicle of the same age?”
-  ●	Assume population is total available dataset
-  ●	H0: p[vehicle,age] = p[age]
-  ●	Ha: p[vehicle,age] > p[age] or p[vehicle,age] < p[age]
+  “Does a vehicle of specific make/model/age perform better or worse than typical vehicle of the same age?”
+  Assume population is total available dataset
+  H0: p[vehicle,age] = p[age]
+  Ha: p[vehicle,age] > p[age] or p[vehicle,age] < p[age]
 
 
 Database: Excel

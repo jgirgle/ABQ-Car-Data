@@ -11,7 +11,7 @@ Albuquerque Vehicle Emissions Database
   ●	Environmental Health Department / Vehicle Pollution Management 
   ●	A record of every emissions test in the city
   ●	Abundance of data (~257,000 records per year):
-    ○	2013: 257,673;  2014: 258,985;  2015: 257,790;  2016: 259,865;  2017: 251,397
+    ○	2013: 257,673;  2014: 258,985;  2015: 257,790;  2016: 259,865;  2017: 251,397 
   ●	We used a reduced dataset:
     ○	based on 2014-2017 data
     ○	50 or more records (make/model/year)
